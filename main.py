@@ -24,7 +24,7 @@ def main():
         cv2.imshow("Facereg",frame)
         
         if cv2.waitkey(1) & 0xFF == ord('q'):
-            break
+            close_window()
     
 
 if __name__ == "__main__":
