@@ -10,6 +10,7 @@ def drawer_box():
     pass
 
 def main():
+    _,frame = camera.read()
     pass
 
 if __name__ == "__main__":
