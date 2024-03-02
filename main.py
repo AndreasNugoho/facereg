@@ -6,3 +6,11 @@ camera = cv2.VideoCapture(0)
 def face_detection():
     pass
 
+def drawer_box():
+    pass
+
+def main():
+    pass
+
+if __name__ == "__main__":
+    main()
