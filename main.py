@@ -4,7 +4,8 @@ face_ref = cv2.CascadeClassifier("face_ref.xml")
 camera = cv2.VideoCapture(0)
 
 def face_detection():
-    faces = face_ref.detectMultiScale(frame,scaleFactor=1.1)
+    optimized_frame = cv2.cvtColor(frame,cv2.COLOR_RGB2GRAY)
+    faces = face_ref.detectMultiScale(optimized_frame,scaleFactor=1.1)
     pass
 
 def drawer_box():
